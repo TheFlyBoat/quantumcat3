@@ -1,0 +1,14 @@
+{
+  "has_package_json": true,
+  "has_lock": true,
+  "has_tsconfig": true,
+  "has_next": false,
+  "has_vite": false,
+  "has_react": true,
+  "has_express": false,
+  "has_python": false,
+  "has_docker": false,
+  "env_files": [
+    ".env"
+  ]
+}

@@ -1,0 +1,127 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 54 43% 94%; /* #F2F0E4 */
+    --foreground: 20 14% 4%;
+
+    --card: 54 43% 94%;
+    --card-foreground: 20 14% 4%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 14% 4%;
+
+    --primary: 260 80% 65%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 48 20% 85%;
+    --secondary-foreground: 20 14% 4%;
+
+    --muted: 48 20% 85%;
+    --muted-foreground: 20 14% 35%;
+
+    --accent: 260 80% 65%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 48 20% 80%;
+    --input: 48 20% 80%;
+    --ring: 260 80% 65%;
+
+    --radius: 0.8rem;
+  }
+
+  .dark {
+    --background: 220 10% 4%;
+    --foreground: 0 0% 98%;
+    --card: 220 10% 6%;
+    --card-foreground: 0 0% 98%;
+    --popover: 220 10% 6%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 260 100% 75%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 220 10% 12%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 220 10% 12%;
+    --muted-foreground: 0 0% 70%;
+    --accent: 260 100% 75%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 220 10% 16%;
+    --input: 220 10% 16%;
+    --ring: 260 100% 75%;
+  }
+
+  .reduce-motion * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important; /* Hat-tip to Bootstrap */
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  
+  .bg-paws-pattern {
+    background-image:
+      radial-gradient(hsl(var(--primary) / 0.15) 1px, transparent 1px),
+      radial-gradient(hsl(var(--primary) / 0.15) 1px, transparent 1px);
+    background-position: 0 0, 25px 25px;
+    background-size: 50px 50px;
+  }
+
+  .spotlight-container > * {
+    isolation: isolate;
+  }
+
+  .spotlight-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at 50% 65%, transparent 15%, black 40%);
+    pointer-events: none;
+    z-index: 50;
+    animation: fade-in-up 0.5s ease-out;
+  }
+
+  .particle {
+    position: absolute;
+    border-radius: 50%;
+    background: hsl(var(--primary));
+    opacity: 0;
+    animation: particle-animation 1s ease-out forwards;
+  }
+  
+  .silhouette {
+    filter: brightness(0);
+    opacity: 0.4;
+  }
+
+  @keyframes particle-animation {
+    0% {
+      transform: scale(0.5) translate(0, 0);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1.2) translate(var(--tx), var(--ty));
+      opacity: 0;
+    }
+  }
+}
+
+    

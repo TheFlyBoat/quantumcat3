@@ -1,0 +1,124 @@
+{
+    "badges": [
+        {
+            "id": "first-peek",
+            "name": "First Peek",
+            "description": "Open your first box.",
+            "icon": "FishBadgeIcon"
+        },
+        {
+            "id": "7-day-streak",
+            "name": "Curious Kitten",
+            "description": "Open boxes 7 days in a row.",
+            "icon": "FishBadgeIcon"
+        },
+        {
+            "id": "30-day-streak",
+            "name": "Dedicated Observer",
+            "description": "Open boxes 30 days in a row.",
+            "icon": "FishBadgeIcon"
+        },
+        {
+            "id": "100-opens",
+            "name": "Quantum Devotee",
+            "description": "Open 100 boxes total (cumulative).",
+            "icon": "MessageSquareBadgeIcon"
+        },
+        {
+            "id": "365-opens",
+            "name": "Infinite Patience",
+            "description": "Reach 365 total box opens.",
+            "icon": "MessageSquareBadgeIcon"
+        },
+        {
+            "id": "alive-kicking",
+            "name": "Alive & Kicking",
+            "description": "Discover your first Alive Cat.",
+            "icon": "FishBadgeIcon"
+        },
+        {
+            "id": "rest-in-pieces",
+            "name": "Rest in Pieces",
+            "description": "Discover your first Dead Cat.",
+            "icon": "FishBadgeIcon"
+        },
+        {
+            "id": "paradox-seeker",
+            "name": "Paradox Seeker",
+            "description": "Discover your first Paradox Cat.",
+            "icon": "FishBadgeIcon"
+        },
+        {
+            "id": "the-collector",
+            "name": "The Collector",
+            "description": "Unlock 10 unique cats.",
+            "icon": "ShareBadgeIcon"
+        },
+        {
+            "id": "the-archivist",
+            "name": "The Archivist",
+            "description": "Complete a full set of Alive, Dead, or Paradox cats.",
+            "icon": "ShareBadgeIcon"
+        },
+        {
+            "id": "10-messages-saved",
+            "name": "Message Keeper",
+            "description": "Save 10 messages to the diary.",
+            "icon": "MessageSquareBadgeIcon"
+        },
+        {
+            "id": "50-messages-saved",
+            "name": "Wisdom Hoarder",
+            "description": "Save 50 messages.",
+            "icon": "MessageSquareBadgeIcon"
+        },
+        {
+            "id": "first-share",
+            "name": "Storyteller",
+            "description": "Share your first outcome.",
+            "icon": "ShareBadgeIcon"
+        },
+        {
+            "id": "10-shares",
+            "name": "Viral Cat",
+            "description": "Share 10 times.",
+            "icon": "ShareBadgeIcon"
+        },
+        {
+            "id": "skin-changer",
+            "name": "Skin Changer",
+            "description": "Equip your first non-default box skin.",
+            "icon": "ShareBadgeIcon"
+        },
+        {
+            "id": "double-collapse",
+            "name": "Double Collapse",
+            "description": "Reveal the same cat twice in a row.",
+            "icon": "FishBadgeIcon"
+        },
+        {
+            "id": "quantum-echo",
+            "name": "Quantum Echo",
+            "description": "Reveal the same cat 3 times in a row.",
+            "icon": "MessageSquareBadgeIcon"
+        },
+        {
+            "id": "improbable-streak",
+            "name": "Improbable Streak",
+            "description": "Get 3 Paradox cats in a row.",
+            "icon": "ShareBadgeIcon"
+        },
+        {
+            "id": "cosmic-alignment",
+            "name": "Cosmic Alignment",
+            "description": "Open a box exactly at midnight.",
+            "icon": "ShareBadgeIcon"
+        },
+        {
+            "id": "undead-luck",
+            "name": "Undead Luck",
+            "description": "Unlock a Dead Cat on Halloween.",
+            "icon": "ShareBadgeIcon"
+        }
+    ]
+}

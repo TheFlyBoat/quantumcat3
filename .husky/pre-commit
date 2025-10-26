@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+# scan only staged changes against the repo root, respecting ignore file
+FILES=$(git diff --cached --name-only --diff-filter=ACM | tr '\n' ' ')
+[ -z "$FILES" ] && exit 0
+npx secretlint --maskSecrets --noColor $FILES

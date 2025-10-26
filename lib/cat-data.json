@@ -1,0 +1,187 @@
+
+{
+    "cats": [
+        {
+            "id": "ginger",
+            "name": "Ginger Cat",
+            "description": "A cheerful, living cat that has definitively chosen a state of existence. Unlocked by observing an 'alive' outcome.",
+            "type": "Alive",
+            "points": 1,
+            "tagline": "The Affectionate Observer",
+            "strength": "Unwavering optimism. Can find a sunbeam in any room.",
+            "weakness": "Easily distracted by laser pointers and benevolent hands."
+        },
+        {
+            "id": "ghost",
+            "name": "Ghost Cat",
+            "description": "A spectral cat, a remnant of a quantum state that has collapsed into non-existence. Unlocked by observing a 'dead' outcome.",
+            "type": "Dead",
+            "points": 2,
+            "tagline": "The Ethereal Wanderer",
+            "strength": "Can pass through closed doors to find the best napping spots.",
+            "weakness": "Slightly translucent, making it hard to show up in photos."
+        },
+        {
+            "id": "shadow",
+            "name": "Shadow Cat",
+            "description": "A mysterious, dark-furred cat that seems to absorb the light around it. Unlocked by observing an 'alive' outcome.",
+            "type": "Alive",
+            "points": 1,
+            "tagline": "The Silent Stalker",
+            "strength": "Master of stealth. Has never once been heard approaching.",
+            "weakness": "Tends to blend in with dark rugs, leading to accidental trips."
+        },
+        {
+            "id": "bones",
+            "name": "Bones Cat",
+            "description": "An articulated skeleton of a cat, rattling with quantum uncertainty. Unlocked by observing a 'dead' outcome.",
+            "type": "Dead",
+            "points": 2,
+            "tagline": "The Rattling Remnant",
+            "strength": "Never needs to eat. Immune to the allure of the food bowl.",
+            "weakness": "A bit noisy on hardwood floors. Cannot purr."
+        },
+        {
+            "id": "identity-crisis",
+            "name": "Identity Crisis Cat",
+            "description": "This cat is... having a moment. It seems to be borrowing parts from other cats. Unlocked by observing an 'alive' outcome.",
+            "type": "Alive",
+            "points": 1,
+            "tagline": "The Amalgamation",
+            "strength": "A Jack of all trades; possesses a patchwork of feline abilities.",
+            "weakness": "Occasionally forgets which parts belong to it. Mildly confused."
+        },
+        {
+            "id": "alt",
+            "name": "Alt Cat",
+            "description": "This cat divides itself into four different versions from alternate universes, then collapses back into one. Unlocked by observing a 'paradox' outcome.",
+            "type": "Paradox",
+            "points": 5,
+            "tagline": "The Multiverse Meanderer",
+            "strength": "Can be in multiple places at once, maximizing petting opportunities.",
+            "weakness": "Sometimes brings back fleas from a dimension where they are giant."
+        },
+        {
+            "id": "breu",
+            "name": "Breu",
+            "description": "A cat born of shadow. Its presence is mysterious and calming.",
+            "type": "Alive",
+            "points": 1,
+            "tagline": "The Abyss Gazes Back",
+            "strength": "Can manipulate shadows and has never lost a staring contest.",
+            "weakness": "Causes minor, localized reality distortions when bored."
+        },
+        {
+            "id": "zumbi",
+            "name": "Zumbi Cat",
+            "description": "A cat that has defied the bounds of life and death, lurching back into a state of quantum undeath. What has science done?",
+            "type": "Dead",
+            "points": 2,
+            "tagline": "The Un-undead Feline",
+            "strength": "Immune to catnip. Has a surprisingly strong grip.",
+            "weakness": "Tends to fall apart. Literally."
+        },
+        {
+            "id": "blizzard",
+            "name": "Blizzard Cat",
+            "description": "A fluffy Siamese cat that seems to carry a perpetual winter with it. Its fur is as white as snow, with points as dark as a winter night.",
+            "type": "Alive",
+            "points": 1,
+            "tagline": "The Chilly Companion",
+            "strength": "Can make any room feel cooler on a hot day. Excellent at making snow angels.",
+            "weakness": "Tends to leave a light dusting of frost on dark furniture."
+        },
+        {
+            "id": "voodoo",
+            "name": "VooDoo Cat",
+            "description": "A patchwork cat held together by stitches and strange magic. It seems to twitch with an energy that is not entirely its own.",
+            "type": "Dead",
+            "points": 2,
+            "tagline": "The Stitched enigma",
+            "strength": "Resistant to being poked. Already has a pin in it.",
+            "weakness": "May unravel if it gets caught on a snag."
+        },
+        {
+            "id": "sleepy",
+            "name": "Sleepy Cat",
+            "description": "This cat is in a constant state of quantum slumber, occasionally peeking at reality before drifting off again.",
+            "type": "Alive",
+            "points": 1,
+            "tagline": "The Perpetual Napper",
+            "strength": "Can fall asleep anywhere, at any time. Unfazed by loud noises.",
+            "weakness": "Often misses meal times. Has to be carried to the litter box."
+        },
+        {
+            "id": "hologram",
+            "name": "Hologram Cat",
+            "description": "A flickering, translucent cat made of pure light. It phases in and out of reality, leaving behind trails of colorful data.",
+            "type": "Paradox",
+            "points": 5,
+            "tagline": "The Prismatic Anomaly",
+            "strength": "Can pass through solid objects, but only if it feels like it.",
+            "weakness": "Vulnerable to power outages."
+        },
+        {
+            "id": "gravity",
+            "name": "Gravity Cat",
+            "description": "This cat has a tenuous relationship with the laws of physics, often finding itself floating upside down.",
+            "type": "Alive",
+            "points": 1,
+            "tagline": "What goes up, doesn't always come down.",
+            "strength": "Excellent at cleaning cobwebs from the ceiling.",
+            "weakness": "Constantly bumping its head. Struggles with gravity-based puzzles."
+        },
+        {
+            "id": "paradox",
+            "name": "Paradox Cat",
+            "description": "This cat seems to be two places at once, glitching between realities.",
+            "type": "Paradox",
+            "points": 5,
+            "tagline": "The Glitching Enigma",
+            "strength": "Exists in multiple states at once, making it impossible to catch.",
+            "weakness": "Sometimes forgets which reality it's in."
+        },
+        {
+            "id": "glitch",
+            "name": "Glitch Cat",
+            "description": "A cat made of unstable code and corrupted data. It flickers with a digital energy that seems to warp the space around it.",
+            "type": "Paradox",
+            "points": 5,
+            "tagline": "The Digital Anomaly",
+            "strength": "Can literally 'debug' itself from any tricky situation.",
+            "weakness": "Prone to crashing. Do not ask it to divide by zero."
+        }
+    ],
+    "outcomes": {
+        "alive": {
+            "title": "The cat is Alive!",
+            "cats": [
+                {"id": "ginger", "rarity": 10},
+                {"id": "shadow", "rarity": 10},
+                {"id": "identity-crisis", "rarity": 10},
+                {"id": "blizzard", "rarity": 10},
+                {"id": "breu", "rarity": 10},
+                {"id": "sleepy", "rarity": 10},
+                {"id": "gravity", "rarity": 10}
+            ]
+        },
+        "dead": {
+            "title": "The cat is... in a state of non-existence.",
+            "cats": [
+                {"id": "ghost", "rarity": 10},
+                {"id": "bones", "rarity": 10},
+                {"id": "zumbi", "rarity": 10},
+                {"id": "voodoo", "rarity": 10}
+            ]
+        },
+        "paradox": {
+            "title": "A Paradox!",
+            "cats": [
+                {"id": "alt", "rarity": 10},
+                {"id": "hologram", "rarity": 10},
+                {"id": "paradox", "rarity": 10},
+                {"id": "glitch", "rarity": 10}
+            ]
+        }
+    }
+}
